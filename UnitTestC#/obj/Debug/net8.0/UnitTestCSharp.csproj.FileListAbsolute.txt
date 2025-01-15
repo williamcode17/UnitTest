@@ -1,0 +1,14 @@
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\bin\Debug\net8.0\UnitTestCSharp.exe
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\bin\Debug\net8.0\UnitTestCSharp.deps.json
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\bin\Debug\net8.0\UnitTestCSharp.runtimeconfig.json
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\bin\Debug\net8.0\UnitTestCSharp.dll
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\bin\Debug\net8.0\UnitTestCSharp.pdb
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.AssemblyInfoInputs.cache
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.AssemblyInfo.cs
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.csproj.CoreCompileInputs.cache
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.dll
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\refint\UnitTestCSharp.dll
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.pdb
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\UnitTestCSharp.genruntimeconfig.cache
+C:\Users\687\source\repos\UnitTestC#\UnitTestC#\obj\Debug\net8.0\ref\UnitTestCSharp.dll

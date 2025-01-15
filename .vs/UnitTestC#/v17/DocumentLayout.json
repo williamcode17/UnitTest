@@ -34,7 +34,8 @@
               "RelativeToolTip": "UnitTestC#\\HelloWorld.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:33:04.118Z"
+              "WhenOpened": "2025-01-15T05:33:04.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -46,7 +47,8 @@
               "RelativeToolTip": "MSTest\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:32:06.158Z"
+              "WhenOpened": "2025-01-15T05:32:06.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

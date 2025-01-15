@@ -1,30 +1,40 @@
-name: .Net
+name: CI - Build and Test
 
 on:
-    push:
-        branches: ["main"]
-    pull_request:
-        branches: ["main"]
-
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build-and-test:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
+    steps:
+    # 1. 檢出代碼
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-            - name: Setup .Net
-              uses: actions/setup-dotnet@v4
-              with:
-                dotnet-version: 8.0.x
+    # 2. 設置 .NET 環境
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0' # 根據您的專案版本
 
-            - name: Build the solution
-              run: dotnet build --no-restore --configuration Release
+    # 3. 還原依賴項
+    - name: Restore dependencies
+      run: dotnet restore ./UnitTest.sln
 
-            - name: Install dependencies
-              run: dotnet build --no-restore
+    # 4. 構建主專案與測試專案
+    - name: Build solution
+      run: dotnet build ./UnitTest.sln --configuration Debug
 
-            - name: Test
-              run: dotnet test --no-build --verbosity normal
+    # 5. 執行 HWUnitTest 測試
+    - name: Run HWUnitTest
+      run: dotnet test HWUnitTest/HWUnitTest.csproj --no-build --verbosity normal
+
+    # 6. 執行 XUnitTest 測試
+    - name: Run XUnitTest
+      run: dotnet test XUnitTest/XUnitTest.csproj --no-build --verbosity normal

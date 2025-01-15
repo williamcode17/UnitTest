@@ -25,16 +25,16 @@ jobs:
 
     # 3. 還原依賴項
     - name: Restore dependencies
-      run: dotnet restore ./UnitTest.sln
+      run: dotnet restore ./UnitTestC#.sln
 
     # 4. 構建主專案與測試專案
     - name: Build solution
-      run: dotnet build ./UnitTest.sln --configuration Debug
+      run: dotnet build ./UnitTestC#.sln --configuration Debug
 
     # 5. 執行 HWUnitTest 測試
     - name: Run HWUnitTest
-      run: dotnet test HWUnitTest/HWUnitTest.csproj --no-build --verbosity normal
+      run: dotnet test MSTest/MSTest.csproj --no-build --verbosity normal
 
     # 6. 執行 XUnitTest 測試
     - name: Run XUnitTest
-      run: dotnet test XUnitTest/XUnitTest.csproj --no-build --verbosity normal
+      run: dotnet test xUnitTest/xUnitTest.csproj --no-build --verbosity normal
